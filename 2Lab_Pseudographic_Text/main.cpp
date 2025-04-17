@@ -163,13 +163,13 @@ private:
 
 int main() {
 	PseudographicText text1;
-	text1.setString("BETTER!");
+	text1.setString("HELLO!");
 	std::cout << text1.state();
 	text1.print(3, 3);
 
-	PseudographicText text2("FASTER!", '@', ' ', FontSize::Big, Color::BrightGreen);
+	PseudographicText text2("WELCOME!", '@', ' ', FontSize::Big, Color::BrightGreen);
 	text2.print(10, 10);
 
-	PseudographicText::print("STRONGER!", '$', ' ', FontSize::Big, Color::BrightYellow, 20, 20);
+	PseudographicText::print("FINALLY!", '$', ' ', FontSize::Big, Color::BrightYellow, 20, 20);
 	return 0;
 }
